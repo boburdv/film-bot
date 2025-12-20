@@ -9,7 +9,7 @@ module.exports = async function handleBuyurtma(bot, ctx) {
   waitOrder[userId] = true;
 
   const msg = await ctx.telegram.copyMessage(userId, CHANNEL, 75, {
-    caption: "Buyurtma qilishdan oldin ushbu videoni albatta ko'ring!\n\nTelegram kanal: @movely_studios",
+    caption: "Buyurtma berish qo'llanmasi!\n\n🔗 havola: @movely_studios",
     reply_markup: Markup.inlineKeyboard([[Markup.button.callback("Ortga qaytish", "go_back")]]).reply_markup,
   });
 
