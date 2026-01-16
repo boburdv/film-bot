@@ -1,7 +1,7 @@
 const { Markup } = require("telegraf");
 const { userData, saveUserData, isCircularReferral } = require("./userData");
 
-const ADMIN = 8322558694;
+const ADMIN = 7868102694;
 const CHANNEL_ID = "@movely_studios";
 
 const mainKeyboard = Markup.keyboard([["🎬 Buyurtma", "🎁 Referal"]]).resize();

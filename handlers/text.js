@@ -3,7 +3,7 @@ const films = require("../data-movie");
 const mainKeyboard = require("../keyboard");
 const { generateButtons } = require("./actions");
 
-const ADMIN = 8322558694;
+const ADMIN = 7868102694;
 global.pendingReplies = {};
 global.orderTime = {};
 global.userLast = {};
